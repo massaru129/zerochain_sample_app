@@ -1,16 +1,19 @@
 # zerochain_sample_app
 
-A new Flutter application.
+Rustで定義した関数をKotlin経由でFlutterから呼び出すことをテストするアプリ
 
-## Getting Started
+見るべきコードは下記３つのみ
 
-This project is a starting point for a Flutter application.
+* `rust/src/lib.rs`
+* `android/app/src/main/java/sample/example/com/zerochain_sample_app/MainActivity.kt`
+* `lib/main.dart`
 
-A few resources to get you started if this is your first Flutter project:
+## 参考リンク
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+* FlutterとRustとKotlinのつなぎ
+  * https://users.rust-lang.org/t/rust-flutter-for-mobile-applications/22725
+* Rust on Kotlin
+  * https://medium.com/visly/rust-on-android-19f34a2fb43
+* Kotlin on Flutter
+  * https://flutter.dev/docs/development/platform-integration/platform-channels#step-3a-add-an-android-platform-specific-implementation-using-java* 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
